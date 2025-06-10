@@ -16,3 +16,8 @@
 
 ## 3일차 - 테스트
 ### 테스트 및 점검
+
+---
+
+## wireframe img
+![wireframe](https://github.com/user-attachments/assets/24b84689-d0be-4549-9030-1a28982af4c0)
