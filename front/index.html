@@ -12,11 +12,24 @@
         <h2 class="sr-only">로그인</h2>
         <p>ChatGPT API 활용에 오신 것을 환영합니다.</p><br>
         <label for="username">아이디:</label>
-        <input type="text" id="username" name="username" /><br>
+        <input type="text" id="username" name="username" /><br><br>
         <label for="password">비밀번호:</label>
         <input type="password" id="password" name="password" /><br><br>
         <button type="button" id="logbtn">로그인</button>
+        <button type="button" id="signbtn">회원가입</button>
     </section>
+
+    <section class="signup-wrap" style="display: none;">
+    <h2 class="sr-only">회원가입</h2>
+    <label for="signup-username">아이디:</label>
+    <input type="text" id="signup-username"><br><br>
+    <label for="signup-email">이메일:</label>
+    <input type="email" id="signup-email"><br><br>
+    <label for="signup-password">비밀번호:</label>
+    <input type="password" id="signup-password"><br><br><br>
+    <button type="button" id="signup-submit">회원가입</button>
+</section>
+
     <script src="001.js"></script>
 </body>
 </html>
